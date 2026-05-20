@@ -1,0 +1,6 @@
+sale_id,customer,product,amount,sale_date
+1,Alice,Laptop,1200,2026-01-01
+2,Bob,Mouse,25,2026-01-02
+3,Alice,Keyboard,100,2026-01-03
+4,Charlie,Monitor,450,2026-01-04
+5,Bob,Laptop,1300,2026-01-05
