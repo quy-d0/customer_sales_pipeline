@@ -2,17 +2,28 @@
 
 ### Purposes:
 1 - Set up a modern analytics stack including VS Code, Miniconda, DuckDB and dbt.
+
 2 - Create a realistic modern warehouse project, including testing, documentation, snapshots, and incremental models.
+
 3 - Simulate a small retail business to address business questions:
+
 -- Who are the top customers?
+
 -- What products generate the most revenue?
+
 -- Which customers are becoming inactive?
+
 -- Monthly sales trends
+
 -- Repeat customer behaviour
+
 -- Customer lifetime value (CLV)
+
 -- Refund and return analysis
 
+
 ### Architecture
+
 CSV Raw Files -- raw injection layer
      ↓
 DuckDB 
