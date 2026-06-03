@@ -17,29 +17,12 @@
 
 
 ### Architecture
-
-CSV Raw Files -- raw injection layer
-
-     ↓
-     
-DuckDB 
-
-     ↓
-
-dbt staging models -- data cleaning 
-
-     ↓
-     
-dbt intermediate models -- business transformation
-
-     ↓
-     
-dbt marts -- BI-ready tables
-
-     ↓
-     
-Power BI / Tableau
-
+a. CSV Raw Files -- raw injection layer 
+b. DuckDB ==> 
+c. dbt staging models -- data cleaning 
+d. dbt intermediate models -- business transformation
+e. dbt marts -- BI-ready tables
+f. Power BI / Tableau
 
 It also includes: 
 
